@@ -1,0 +1,8 @@
+- id: import-lint
+  name: import-lint
+  description: "import-lint: The Python code import checker"
+  entry: import-lint
+  language: python
+  language_version: python3
+  require_serial: true
+  types: [python]
