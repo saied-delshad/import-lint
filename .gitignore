@@ -1,0 +1,41 @@
+#   ____ ___ _____ ___ ____ _   _  ___  ____  _____
+#  / ___|_ _|_   _|_ _/ ___| \ | |/ _ \|  _ \| ____|
+# | |  _ | |  | |  | | |  _|  \| | | | | |_) |  _|
+# | |_| || |  | |  | | |_| | |\  | |_| |  _ <| |___
+#(_)____|___| |_| |___\____|_| \_|\___/|_| \_\_____|
+
+.*/
+*.txt
+~ requirements.txt
+documents/slate/vendor/
+*.log
+data/*
+bundle/smcli*
+CI.py
+*.pyc
+*.pyo
+*.swp
+__pycache__/
+.idea/
+.ropeproject
+.DS_Store
+env/
+venv/
+*.egg-info/
+*.eggs/
+build/
+dist/
+docs/_build/
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+# for emacs from @https://simpleit.rocks/git/make-git-ignore-temporary-files-produced-by-emacs-and-vim-in-all-directories-globally/
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
